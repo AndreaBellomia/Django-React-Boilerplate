@@ -1,2 +1,2 @@
-# Django-React
-Preconf Django and react with webpack
+# Django-REST React
+Preconf Django and Rest Framework
