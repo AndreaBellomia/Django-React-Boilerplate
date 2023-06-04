@@ -7,7 +7,7 @@ module.exports = {
     frontend: "./react_app/src/index.js",
   },
   output: {
-    path: path.resolve("./django_react/app/frontend/static/frontend/"),
+    path: path.resolve("./django/app/frontend/static/frontend/"),
     filename: "[name]-[fullhash].js",
     publicPath: "static/frontend/",
   },
@@ -15,7 +15,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new BundleTracker({
       path: __dirname,
-      filename: "./django_react/webpack-stats.json",
+      filename: "./django/webpack-stats.json",
     }),
   ],
   module: {
