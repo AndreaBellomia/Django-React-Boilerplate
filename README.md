@@ -1,5 +1,7 @@
 # Django-REST React
-Pre-configured django 4.2.1 project with restframewrk and React 
+Pre-configured django 4.2.1 project with restframewrk and React.
+This configuration uses Webpack to supply static files to Django at development time
+Thus being able to use Django's SessionAuth avoiding Atuh via Token
 
 ## Prerequisites
 required `python 3.11`
